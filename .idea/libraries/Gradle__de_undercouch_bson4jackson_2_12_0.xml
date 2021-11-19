@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: de.undercouch:bson4jackson:2.12.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.undercouch/bson4jackson/2.12.0/c99c7161bf599b2608e1fb37a1b343b6fa2f9dae/bson4jackson-2.12.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/de.undercouch/bson4jackson/2.12.0/39750423ddd6c2cf3ec68ee5a2bddb927d80f7cc/bson4jackson-2.12.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

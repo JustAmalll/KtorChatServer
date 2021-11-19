@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.litote.jackson:jackson-module-loader:0.4.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.litote.jackson/jackson-module-loader/0.4.0/a166a0bbe721a0433dcceb441a1fb959a1fcc33d/jackson-module-loader-0.4.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.litote.jackson/jackson-module-loader/0.4.0/1bd270dea8902fae318e07c8d79f29bcc2ea7aa6/jackson-module-loader-0.4.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="dev.amal.ktor-chat" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="dev.amal" external.system.module.version="0.0.1" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="4" platform="JVM 1.8" allPlatforms="JVM [1.8]" useProjectSettings="false">
+        <compilerSettings>
+          <option name="additionalArguments" value="-Xallow-no-source-files" />
+        </compilerSettings>
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/../../build/classes/kotlin/main" />
+          <option name="classpath" value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.insert-koin/koin-ktor/3.1.2/fcc5b370cb728b26441bda987f488a609b3e443c/koin-ktor-3.1.2.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-websockets/1.6.5/2fc730fdfe4cfaad205ad820410e109776a47c11/ktor-websockets-jvm-1.6.5.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-serialization/1.6.5/d9433861fa715c56a4c44a7075b74b75395fee82/ktor-serialization-jvm-1.6.5.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-server-sessions/1.6.5/8ae01b19af410e9411f589ca375613e25b91053c/ktor-server-sessions-jvm-1.6.5.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-server-netty/1.6.5/6ebd2185ab487d16c07699a942132505375bc0b8/ktor-server-netty-jvm-1.6.5.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-server-host-common/1.6.5/e6af65a51ad10287e102f28d1873bed7dab11841/ktor-server-host-common-jvm-1.6.5.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-server-core/1.6.5/473b0e2b4722c786476036d245642085b00ece47/ktor-server-core-jvm-1.6.5.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/io.insert-koin/koin-logger-slf4j/3.1.2/1b2a64998a6cf545c328a9434f6c8160e6230c92/koin-logger-slf4j-3.1.2.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/io.insert-koin/koin-core-jvm/3.1.2/426d272f292cfdc37b0c4b0d7dd3235ca96b0625/koin-core-jvm-3.1.2.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/org.litote.kmongo/kmongo-coroutine/4.3.0/f69d00d4345e97a4ed5cf8c30637bd5be8a22cd3/kmongo-coroutine-4.3.0.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/org.litote.kmongo/kmongo-coroutine-core/4.3.0/8989ca04933950f5f348543c8fdc152c48b73185/kmongo-coroutine-core-4.3.0.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-reactive/1.5.2/6ab6c941fa2cd480a89490b438ba27e6033a30ec/kotlinx-coroutines-reactive-1.5.2.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-jdk8/1.5.2-native-mt/d69f81952deecb5b523eec050ee1b5481bba482c/kotlinx-coroutines-jdk8-1.5.2-native-mt.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-http-cio-jvm/1.6.5/f642352cfc5436229aacbb91754ced03eefc11a9/ktor-http-cio-jvm-1.6.5.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-http-jvm/1.6.5/382f50ea5c9f9e5874bc9ef9cfd265ffa8501d72/ktor-http-jvm-1.6.5.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-network-jvm/1.6.5/5e0e92559d5318cfe289a6a0b73a01cbd3fcfec5/ktor-network-jvm-1.6.5.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-utils-jvm/1.6.5/1cefcdad3bd902760f1fa32336e0f1b740049038/ktor-utils-jvm-1.6.5.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/io.ktor/ktor-io-jvm/1.6.5/3ef28f193a7c33a012a22a6e8daacb8e1f01a13/ktor-io-jvm-1.6.5.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core-jvm/1.5.2/f4cc07a50437659e0043e7da762809a46932b6a0/kotlinx-coroutines-core-jvm-1.5.2.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk8/1.6.0/baf82c475e9372c25407f3d132439e4aa803b8b8/kotlin-stdlib-jdk8-1.6.0.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.2.3/7c4f3c474fb2c041d8028740440937705ebb473a/logback-classic-1.2.3.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/org.litote.kmongo/kmongo/4.3.0/c2ed0523c5ccaa7c3ece06098d7d9e0886670513/kmongo-4.3.0.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.6.0/da6bdc87391322974a43ccc00a25536ae74dad51/kotlin-stdlib-jdk7-1.6.0.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/org.litote.kmongo/kmongo-jackson-mapping/4.3.0/dcd38c2cc17c2e6c49c0fdbbc428142470fe189a/kmongo-jackson-mapping-4.3.0.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/org.litote.kmongo/kmongo-core/4.3.0/98cc1791a2fb4150c878be1946cda739fbfd0ec3/kmongo-core-4.3.0.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/org.litote.kmongo/kmongo-async-shared/4.3.0/c57066e4e5f73a14b70ab3b1625dfefc18602642/kmongo-async-shared-4.3.0.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/org.litote.kmongo/kmongo-property/4.3.0/f6be8eb7516a7c8511479683c0d04d037f4c756c/kmongo-property-4.3.0.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/org.litote.kmongo/kmongo-shared/4.3.0/b6d2e585eaecec24f4f0a00b921819256720c3/kmongo-shared-4.3.0.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/org.litote.kmongo/kmongo-id-jackson/4.3.0/1e64b8f85e20b6b340b019a215578c591777c13b/kmongo-id-jackson-4.3.0.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.12.5/b064cf057f23d3d35390328c5030847efeffedde/jackson-databind-2.12.5.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.12.5/52d929d5bb21d0186fe24c09624cc3ee4bafc3b3/jackson-annotations-2.12.5.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.12.5/725e364cc71b80e60fa450bd06d75cdea7fb2d59/jackson-core-2.12.5.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.module/jackson-module-kotlin/2.12.5/9f8be96db441bf7c217db22a03efd6902c0da34e/jackson-module-kotlin-2.12.5.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/org.litote/kreflect/1.0.0/d4cb279241ea39a46f231b127a0f45618461d625/kreflect-1.0.0.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/org.litote.kmongo/kmongo-id/4.3.0/7cfba3f7232d97dbb4dfd596d903e41aa763152c/kmongo-id-4.3.0.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.5.31/1523fcd842a47da0820cea772b19c51056fec8a9/kotlin-reflect-1.5.31.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-json-jvm/1.3.0/4034c95d41b81a781fe153fc02907dda42eaee6/kotlinx-serialization-json-jvm-1.3.0.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/org.litote.kmongo/kmongo-data/4.3.0/b2ec72b9a7d6fc4a35fb7fb5f5b95cdd26eb7a07/kmongo-data-4.3.0.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-serialization-core-jvm/1.3.0/5f818cb33fef8df88a9c1684ac02f0034424f0c/kotlinx-serialization-core-jvm-1.3.0.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.6.0/a40b8b22529b733892edf4b73468ce598bb17f04/kotlin-stdlib-1.6.0.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.32/cdcff33940d9f2de763bc41ea05a0be5941176c3/slf4j-api-1.7.32.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/com.typesafe/config/1.4.1/19058a07624a87f90d129af7cd9c68bee94535a9/config-1.4.1.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http2/4.1.69.Final/cfd4423c9d19683a6bf37e235830e73ec2f75ec1/netty-codec-http2-4.1.69.Final.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.alpn/alpn-api/1.1.3.v20160715/a1bf3a937f91b4c953acd13e8c9552347adc2198/alpn-api-1.1.3.v20160715.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-kqueue/4.1.69.Final/b02f2b4051d17f4ec81daf7000231596ba82adf2/netty-transport-native-kqueue-4.1.69.Final.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-epoll/4.1.69.Final/22752c3332435a870157ca92583ac2566a60567e/netty-transport-native-epoll-4.1.69.Final.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.2.3/864344400c3d4d92dfeb0a305dc87d953677c03c/logback-core-1.2.3.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.6.0/7857e365f925cfa060f941c1357cda1f8790502c/kotlin-stdlib-common-1.6.0.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http/4.1.69.Final/702c6104a716ca9dc8eec6f4459733fdfcbe1959/netty-codec-http-4.1.69.Final.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler/4.1.69.Final/73e932059ce8881094cedcfe4a92b8391ffa7b1b/netty-handler-4.1.69.Final.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.1.69.Final/617ecaee8bcb3874234e8c0832843ebbc9e9dcc9/netty-codec-4.1.69.Final.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport-native-unix-common/4.1.69.Final/b055314f117262c23df91a3874bebf0a53f3e24/netty-transport-native-unix-common-4.1.69.Final.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.1.69.Final/228e5318012edb93138005ebe896b5dd91d4b47d/netty-transport-4.1.69.Final.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.1.69.Final/c87da90e422b331ecd1e157ca77e5300348b6d0d/netty-buffer-4.1.69.Final.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver/4.1.69.Final/d4e7b1b8c1e5aeaf41877906b90762f1e0151902/netty-resolver-4.1.69.Final.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.1.69.Final/810e0649787c4930a8e699d68eb8519df2560dd0/netty-common-4.1.69.Final.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/org.mongodb/mongodb-driver-sync/4.3.2/7735fc3aa02d5168e5cad8956dc4351d0608435a/mongodb-driver-sync-4.3.2.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/org.litote.jackson/jackson-module-loader/0.4.0/a166a0bbe721a0433dcceb441a1fb959a1fcc33d/jackson-module-loader-0.4.0.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/de.undercouch/bson4jackson/2.12.0/c99c7161bf599b2608e1fb37a1b343b6fa2f9dae/bson4jackson-2.12.0.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/org.mongodb/mongodb-driver-reactivestreams/4.3.2/428b0ea00615b3bbf435cc1aa9d40620ad2eed8/mongodb-driver-reactivestreams-4.3.2.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/org.mongodb/mongodb-driver-core/4.3.2/8cd15fd9d1d6199844c28fd42c97670ec0ca660b/mongodb-driver-core-4.3.2.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/org.mongodb/bson/4.3.2/df104c80b257ba85f8af313e541a381a2e459947/bson-4.3.2.jar;C:/Users/lilba/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.3/d9fb7a7926ffa635b3dcaa5049fb2bfa25b3e7d0/reactive-streams-1.0.3.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="moduleName" value="dev.amal.ktor-chat" />
+          <option name="languageVersion" value="1.6" />
+          <option name="apiVersion" value="1.6" />
+          <option name="pluginOptions">
+            <array />
+          </option>
+          <option name="pluginClasspaths">
+            <array>
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-gradle-plugin-api/1.6.0/524ea6e28666daf17ca7e50bba69c3b77f08f233/kotlin-gradle-plugin-api-1.6.0.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-jvm/1.6.0/aea1438a95ff80b5ff71ac9fc998462297ddffea/kotlin-scripting-jvm-1.6.0.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-scripting-common/1.6.0/5bb427e36a331fde47846d026b687b3d5a244f7c/kotlin-scripting-common-1.6.0.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.6.0/a40b8b22529b733892edf4b73468ce598bb17f04/kotlin-stdlib-1.6.0.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-native-utils/1.6.0/f61b5e8b25b7422d7b7c6eb1721e6e190538cc0b/kotlin-native-utils-1.6.0.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-project-model/1.6.0/da356988c4cc873419f9c59168554ed1907cb879/kotlin-project-model-1.6.0.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.6.0/7857e365f925cfa060f941c1357cda1f8790502c/kotlin-stdlib-common-1.6.0.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-util-io/1.6.0/c985815174d49d43f07665c7583c824ea9d6edb6/kotlin-util-io-1.6.0.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.6.0/55f72526ddcff6fc77d72cdf949c7e3d9bd95620/kotlin-script-runtime-1.6.0.jar" />
+              <option value="$KOTLIN_BUNDLED$/lib/kotlinx-serialization-compiler-plugin.jar" />
+            </array>
+          </option>
+          <option name="errors">
+            <ArgumentParseErrors />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/../../build/classes/java/main" />
+    <output-test url="file://$MODULE_DIR$/../../build/classes/java/test" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../..">
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/kotlin" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/resources" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/test/kotlin" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/../../.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../build" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: io.insert-koin:koin-ktor:3.1.2" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-websockets-jvm:1.6.5" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-serialization-jvm:1.6.5" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-server-sessions-jvm:1.6.5" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-server-netty-jvm:1.6.5" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-server-host-common-jvm:1.6.5" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-server-core-jvm:1.6.5" level="project" />
+    <orderEntry type="library" name="Gradle: io.insert-koin:koin-logger-slf4j:3.1.2" level="project" />
+    <orderEntry type="library" name="Gradle: io.insert-koin:koin-core-jvm:3.1.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.litote.kmongo:kmongo-coroutine:4.3.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.litote.kmongo:kmongo-coroutine-core:4.3.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-reactive:1.5.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-jdk8:1.5.2-native-mt" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-http-cio-jvm:1.6.5" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-http-jvm:1.6.5" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-network-jvm:1.6.5" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-utils-jvm:1.6.5" level="project" />
+    <orderEntry type="library" name="Gradle: io.ktor:ktor-io-jvm:1.6.5" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-core-jvm:1.5.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.6.0" level="project" />
+    <orderEntry type="library" name="Gradle: ch.qos.logback:logback-classic:1.2.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.litote.kmongo:kmongo:4.3.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.6.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.litote.kmongo:kmongo-jackson-mapping:4.3.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.litote.kmongo:kmongo-core:4.3.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.litote.kmongo:kmongo-async-shared:4.3.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.litote.kmongo:kmongo-property:4.3.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.litote.kmongo:kmongo-shared:4.3.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.litote.kmongo:kmongo-id-jackson:4.3.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.12.5" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.12.5" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.12.5" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.module:jackson-module-kotlin:2.12.5" level="project" />
+    <orderEntry type="library" name="Gradle: org.litote:kreflect:1.0.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.litote.kmongo:kmongo-id:4.3.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-reflect:1.5.31" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-serialization-json-jvm:1.3.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.litote.kmongo:kmongo-data:4.3.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlinx:kotlinx-serialization-core-jvm:1.3.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib:1.6.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.slf4j:slf4j-api:1.7.32" level="project" />
+    <orderEntry type="library" name="Gradle: com.typesafe:config:1.4.1" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec-http2:4.1.69.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.eclipse.jetty.alpn:alpn-api:1.1.3.v20160715" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-transport-native-kqueue:4.1.69.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-transport-native-epoll:4.1.69.Final" level="project" />
+    <orderEntry type="library" name="Gradle: ch.qos.logback:logback-core:1.2.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains:annotations:13.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.6.0" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec-http:4.1.69.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-handler:4.1.69.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-codec:4.1.69.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-transport-native-unix-common:4.1.69.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-transport:4.1.69.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-buffer:4.1.69.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-resolver:4.1.69.Final" level="project" />
+    <orderEntry type="library" name="Gradle: io.netty:netty-common:4.1.69.Final" level="project" />
+    <orderEntry type="library" name="Gradle: org.mongodb:mongodb-driver-sync:4.3.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.litote.jackson:jackson-module-loader:0.4.0" level="project" />
+    <orderEntry type="library" name="Gradle: de.undercouch:bson4jackson:2.12.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.mongodb:mongodb-driver-reactivestreams:4.3.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.mongodb:mongodb-driver-core:4.3.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.mongodb:bson:4.3.2" level="project" />
+    <orderEntry type="library" name="Gradle: org.reactivestreams:reactive-streams:1.0.3" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: org.fusesource.jansi:jansi:2.4.0" level="project" />
+    <orderEntry type="library" scope="RUNTIME" name="Gradle: io.projectreactor:reactor-core:3.2.22.RELEASE" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-server-tests-jvm:1.6.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-server-test-host-jvm:1.6.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-network-tls-certificates-jvm:1.6.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-client-jetty-jvm:1.6.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-client-cio-jvm:1.6.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-client-core-jvm:1.6.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.ktor:ktor-network-tls-jvm:1.6.5" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: ch.qos.logback:logback-classic:1.2.6" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-test-junit:1.6.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlin:kotlin-test:1.6.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: ch.qos.logback:logback-core:1.2.6" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: junit:junit:4.13.2" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.hamcrest:hamcrest-core:1.3" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.eclipse.jetty.http2:http2-http-client-transport:9.4.42.v20210604" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.eclipse.jetty.http2:http2-client:9.4.42.v20210604" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.eclipse.jetty:jetty-client:9.4.42.v20210604" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.eclipse.jetty.http2:http2-common:9.4.42.v20210604" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.eclipse.jetty:jetty-alpn-openjdk8-client:9.4.42.v20210604" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.eclipse.jetty:jetty-alpn-java-client:9.4.42.v20210604" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.eclipse.jetty:jetty-alpn-client:9.4.42.v20210604" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.eclipse.jetty.http2:http2-hpack:9.4.42.v20210604" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.eclipse.jetty:jetty-http:9.4.42.v20210604" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.eclipse.jetty:jetty-io:9.4.42.v20210604" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.eclipse.jetty:jetty-util:9.4.42.v20210604" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.jetbrains.kotlinx:kotlinx-coroutines-debug:1.5.2-native-mt" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: org.fusesource.jansi:jansi:2.4.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: io.projectreactor:reactor-core:3.2.22.RELEASE" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: net.java.dev.jna:jna-platform:5.5.0" level="project" />
+    <orderEntry type="library" scope="TEST" name="Gradle: net.java.dev.jna:jna:5.5.0" level="project" />
+  </component>
+</module>
