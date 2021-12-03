@@ -1,2 +1,2 @@
-# KtorChatServer
-Chat App With Ktor - Using Server
+# Ktor Chat Server
+Server With Ktor for Chat App
