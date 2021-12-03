@@ -4,7 +4,7 @@ import dev.amal.data.model.Message
 import org.litote.kmongo.coroutine.CoroutineDatabase
 
 class MessageDataSourceImpl(
-    private val db: CoroutineDatabase
+    db: CoroutineDatabase
 ) : MessageDataSource {
 
     private val messages = db.getCollection<Message>()
